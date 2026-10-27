@@ -21,6 +21,23 @@ Pour le récupérer et le transférer à ton bot / agent :
 
 Le jeu est 100 % client-side (canvas + JS). Aucune dépendance externe obligatoire.
 
+## Ajouter de la musique (Google Flow Music)
+
+1. Va sur https://www.flowmusic.app/
+2. Génère une piste chiptune / 8-bit / arcade style (ex: "Pac-Man style 8-bit chiptune, energetic, looping, no vocals")
+3. Télécharge en MP3 ou WAV
+4. Dans le code HTML5 : ajoute une balise `<audio>` et joue-la au démarrage / sur événements (manger un point, power pellet, mort, etc.)
+
+Exemple minimal :
+```html
+<audio id="bgm" loop>
+  <source src="pacman-theme.mp3" type="audio/mpeg">
+</audio>
+<script>
+  document.getElementById('bgm').play();
+</script>
+```
+
 ## Processus
 
 - Retouche et génération d'images avec Grok
