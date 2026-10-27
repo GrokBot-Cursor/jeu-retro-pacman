@@ -9,6 +9,18 @@ Jeu Pac-Man créé 100% avec Grok : de la retouche photo à la génération d'im
 - [Jouer en ligne](https://jeu-retro.grok.me/pacman.html)
 - Accueil : [https://jeu-retro.grok.me/](https://jeu-retro.grok.me/)
 
+## Transférer le code HTML5 à un bot
+
+Le code source HTML5 complet est libre de droit (MIT).
+
+Pour le récupérer et le transférer à ton bot / agent :
+1. Ouvre https://jeu-retro.grok.me/pacman.html
+2. Clic droit → Afficher le code source (ou Ctrl+U)
+3. Copie tout le HTML/JS/CSS
+4. Colle-le dans ton bot ou sauvegarde en .html
+
+Le jeu est 100 % client-side (canvas + JS). Aucune dépendance externe obligatoire.
+
 ## Processus
 
 - Retouche et génération d'images avec Grok
@@ -18,11 +30,5 @@ Jeu Pac-Man créé 100% avec Grok : de la retouche photo à la génération d'im
 ## Licence
 
 MIT License - voir LICENSE
-
-## Publication
-
-Repo public pour partage du projet. Source disponible sur le site hébergé.
-
-Image de mise en avant : borne arcade style LVL 1.
 
 Créé par Stéphane avec Grok.
